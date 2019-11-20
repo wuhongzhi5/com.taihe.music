@@ -139,6 +139,84 @@
     .box-top2-bx ul li:hover a {
       color: rgb(225, 50, 40);
     }
+
+    .box-top3 {
+      width: 100%;
+      height: 640px;
+    }
+
+    .box-top3-bx {
+      width: 1350px;
+      height: 640px;
+      margin: auto;
+    }
+
+    .box-top3-bx-left {
+      float: left;
+      height: 100%;
+      width: 850px;
+    }
+
+    .box-top3-bx-left-top {
+      height: 95px;
+      line-height: 95px;
+    }
+
+    .box-top3-bx-left-top p {
+      float: left;
+    }
+
+    .box-top3-bx-left-top p:first-child {
+      font-size: 24px;
+    }
+
+    .box-top3-bx-left-top .gengduo a {
+      color: rgb(153, 153, 153);
+      margin-left: 10px;
+    }
+
+    .box-top3-bx-left-top span {
+      float: right;
+    }
+
+    .box-top3-bx-left-top span a {
+      color: rgb(153, 153, 153);
+      font-size: 20px;
+    }
+
+    .box-top3-bx-left-top span:last-child a {
+      margin-right: 10px;
+    }
+
+    .box-top3-bx-left-top2 .imagebox {
+      position: relative;
+      float: left;
+      width: 195px;
+      height: 195px;
+      background: url(../img/3.jpg);
+      background-repeat: no-repeat;
+      background-size: 195px;
+    }
+
+    .box-top3-bx-left-top2:hover .imagebox {
+      background-size: 210px;
+      background-position: -10px -10px;
+    }
+
+    .box-top3-bx-left-top2 .imagebox div {
+      position: absolute;
+      display: none;
+      width: 54px;
+      height: 54px;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 54%;
+      left: calc((195px - 54px)/2);
+      top: calc((195px - 54px)/2);
+    }
+
+    .box-top3-bx-left-top2:hover .imagebox div {
+      display: block;
+    }
   </style>
 </head>
 
@@ -176,8 +254,30 @@
           <li><a href="">榜单</a></li>
           <li><a href="">分类</a></li>
           <li><a href="">MV</a></li>
-          <li><a href="">U榜</a></li>
+          <li><a href="">U榜</a><a href="http://music.taihe.com/songlist/566346973">a</a></li>
         </ul>
+      </div>
+    </div>
+    <div class="box-top3">
+      <div class="box-top3-bx">
+        <div class="box-top3-bx-left">
+          <div class="box-top3-bx-left-top">
+            <p>热门歌单</p>
+            <p class="gengduo"><a href="">更多</a></p>
+            <span><a href="">＞</a></span>
+            <span><a href="">＜</a></span>
+          </div>
+          <div class="box-top3-bx-left-top2">
+            <a href="">
+              <div class="imagebox">
+                <div></div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div>
+
+        </div>
       </div>
     </div>
   </div>
