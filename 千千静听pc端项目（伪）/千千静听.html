@@ -159,11 +159,11 @@
 
     .box-top3-bx-left-top {
       height: 95px;
-      line-height: 95px;
     }
 
     .box-top3-bx-left-top p {
       float: left;
+      line-height: 95px;
     }
 
     .box-top3-bx-left-top p:first-child {
@@ -175,17 +175,19 @@
       margin-left: 10px;
     }
 
-    .box-top3-bx-left-top span {
+    .youjian {
       float: right;
-    }
-
-    .box-top3-bx-left-top span a {
       color: rgb(153, 153, 153);
+      height: 20px;
       font-size: 20px;
+      color: rgb(137, 83, 84);
+      margin-right: 10px;
+      margin-top: 30px;
+      padding-bottom: 2px;
     }
 
-    .box-top3-bx-left-top span:last-child a {
-      margin-right: 10px;
+    .box-top3-bx-left-top2 {
+      height: 550px;
     }
 
     .box-top3-bx-left-top2 .imagebox {
@@ -196,11 +198,23 @@
       background: url(../img/3.jpg);
       background-repeat: no-repeat;
       background-size: 195px;
+      margin-left: 23px;
+      box-sizing: border-box;
     }
 
-    .box-top3-bx-left-top2:hover .imagebox {
+    .box-top3-bx-left-top2 .imagebox:hover {
       background-size: 210px;
-      background-position: -10px -10px;
+      background-position: -9px -9px;
+      transition: all 0.2s;
+    }
+
+    .box-top3-bx-left-top2 a:first-child .imagebox {
+      margin-left: 0;
+    }
+
+    .box-top3-bx-left-top2 a:hover {
+      color: rgb(51, 51, 51);
+      font-weight: 600;
     }
 
     .box-top3-bx-left-top2 .imagebox div {
@@ -214,7 +228,13 @@
       top: calc((195px - 54px)/2);
     }
 
-    .box-top3-bx-left-top2:hover .imagebox div {
+    .box-top3-bx-left-top2 span {
+      display: block;
+      font-size: 15px;
+      margin-top: 210px;
+    }
+
+    .box-top3-bx-left-top2 .imagebox:hover div {
       display: block;
     }
   </style>
@@ -264,13 +284,32 @@
           <div class="box-top3-bx-left-top">
             <p>热门歌单</p>
             <p class="gengduo"><a href="">更多</a></p>
-            <span><a href="">＞</a></span>
-            <span><a href="">＜</a></span>
+            <a href="" class="youjian">＞</a>
+            <a href="" class="youjian">＜</a>
           </div>
           <div class="box-top3-bx-left-top2">
             <a href="">
               <div class="imagebox">
                 <div></div>
+                <span>趁年轻去爱</span>
+              </div>
+            </a>
+            <a href="">
+              <div class="imagebox">
+                <div></div>
+                <span>趁年轻去爱</span>
+              </div>
+            </a>
+            <a href="">
+              <div class="imagebox">
+                <div></div>
+                <span>趁年轻去爱</span>
+              </div>
+            </a>
+            <a href="">
+              <div class="imagebox">
+                <div></div>
+                <span>趁年轻去爱</span>
               </div>
             </a>
           </div>
