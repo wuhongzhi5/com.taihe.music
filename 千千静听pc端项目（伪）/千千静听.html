@@ -163,6 +163,9 @@
 
     .box-top3-bx-left-top p {
       float: left;
+    }
+
+    .box-top3-bx-left-top .gengduo {
       line-height: 95px;
     }
 
@@ -170,9 +173,11 @@
       font-size: 24px;
     }
 
-    .box-top3-bx-left-top .gengduo a {
+    .box-top3-bx-left-top p a {
+      display: inline-block;
       color: rgb(153, 153, 153);
       margin-left: 10px;
+      margin-top: 47px;
     }
 
     .youjian {
@@ -202,10 +207,53 @@
       box-sizing: border-box;
     }
 
-    .box-top3-bx-left-top2 .imagebox:hover {
+    .box-top3-bx-left-top2 a:nth-child(-n+8) .imagebox:hover {
       background-size: 210px;
       background-position: -9px -9px;
-      transition: all 0.2s;
+      transition: all 0.3s;
+    }
+
+    .box-top3-bx-left-top2 a:nth-child(2) .imagebox {
+      background: url(../img/1.jpg);
+      background-size: 195px;
+    }
+
+    .box-top3-bx-left-top2 a:nth-child(3) .imagebox {
+      background: url(../img/2.jpg);
+      background-size: 195px;
+    }
+
+    .box-top3-bx-left-top2 a:nth-child(4) .imagebox {
+      background: url(../img/4.jpg);
+      background-size: 195px;
+    }
+
+    .box-top3-bx-left-top2 a:nth-child(5) .imagebox {
+      background: url(../img/5.jpg);
+      background-size: 195px;
+    }
+
+    .box-top3-bx-left-top2 a:nth-child(6) .imagebox {
+      background: url(../img/6.jpg);
+      background-size: 195px;
+    }
+
+    .box-top3-bx-left-top2 a:nth-child(7) .imagebox {
+      background: url(../img/7.jpg);
+      background-size: 195px;
+    }
+
+    .box-top3-bx-left-top2 a:nth-child(8) .imagebox {
+      background: url(../img/8.jpg);
+      background-size: 195px;
+    }
+
+    .box-top3-bx-left-top2 a:nth-child(5) .imagebox {
+      margin-left: 0;
+    }
+
+    .box-top3-bx-left-top2 a:nth-last-child(-n+4) .imagebox {
+      margin-top: 87px;
     }
 
     .box-top3-bx-left-top2 a:first-child .imagebox {
@@ -222,7 +270,7 @@
       display: none;
       width: 54px;
       height: 54px;
-      background-color: rgba(0, 0, 0, 0.5);
+      background-color: rgba(0, 0, 0, 0.6);
       border-radius: 54%;
       left: calc((195px - 54px)/2);
       top: calc((195px - 54px)/2);
@@ -230,12 +278,133 @@
 
     .box-top3-bx-left-top2 span {
       display: block;
-      font-size: 15px;
-      margin-top: 210px;
+      font-size: 16px;
+      margin-top: 195px;
+      padding-top: 10px;
     }
 
     .box-top3-bx-left-top2 .imagebox:hover div {
       display: block;
+    }
+
+    .imagebox p {
+      font-size: 40px;
+      line-height: 54px;
+      text-align: center;
+      color: #fff;
+    }
+
+    .box-top3-bx-right {
+      float: right;
+      height: 100%;
+      width: 430px;
+    }
+
+    .box-top3-bx-right-top {
+      height: 95px;
+    }
+
+    .box-top3-bx-right-top p {
+      float: left;
+    }
+
+    .box-top3-bx-right-top .gengduo2 {
+      line-height: 95px;
+    }
+
+    .box-top3-bx-right-top p:first-child {
+      font-size: 28px;
+    }
+
+    .box-top3-bx-right p a {
+      display: inline-block;
+      color: rgb(153, 153, 153);
+      margin-left: 10px;
+      margin-top: 47px;
+    }
+
+    .fenlei {
+      height: 282px;
+      width: 100%;
+    }
+
+    .fenlei a {
+      float: left;
+      width: 118px;
+      height: 46px;
+      text-align: center;
+      line-height: 46px;
+      font-size: 14px;
+      border-radius: 46px;
+      border: 1px solid #ccc;
+      margin-left: 20px;
+      margin-top: 16px;
+    }
+
+    .fenlei a:hover {
+      box-shadow: 0 2px 3px rgb(216, 214, 214);
+      transition: all 0.3s;
+    }
+
+    .fenlei span:nth-child(-n+3) {
+      margin-top: 0;
+    }
+
+    .fenlei span:nth-child(1),
+    .fenlei span:nth-child(4),
+    .fenlei span:nth-child(7),
+    .fenlei span:nth-child(10) {
+      margin-left: 0;
+    }
+
+    .diantai {
+      width: 462px;
+      height: calc(640px - 282px - 95px);
+    }
+
+    .diantai p {
+      float: left;
+    }
+
+
+    .diantai p:first-child {
+      font-size: 28px;
+    }
+
+    .diantai p a {
+      display: inline-block;
+      color: rgb(153, 153, 153);
+      margin-left: 10px;
+      margin-top: 16px;
+    }
+
+    .tubiao {
+      position: relative;
+      float: left;
+      margin-top: 28px;
+      width: 70px;
+      height: 86px;
+      text-align: left;
+    }
+
+    .tubiao div {
+      position: absolute;
+      display: none;
+      top: 0;
+      width: 57px;
+      height: 57px;
+      border-radius: 50%;
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    .tubiao:hover div {
+      display: block;
+    }
+
+    .tubiao span {
+      display: inline-block;
+      margin-left: 5px;
+      margin-top: 14px;
     }
   </style>
 </head>
@@ -282,40 +451,111 @@
       <div class="box-top3-bx">
         <div class="box-top3-bx-left">
           <div class="box-top3-bx-left-top">
-            <p>热门歌单</p>
-            <p class="gengduo"><a href="">更多</a></p>
+            <p class="gengduo">热门歌单</p>
+            <p><a href="">更多</a></p>
             <a href="" class="youjian">＞</a>
             <a href="" class="youjian">＜</a>
           </div>
           <div class="box-top3-bx-left-top2">
             <a href="">
               <div class="imagebox">
-                <div></div>
+                <div>
+                  <p>></p>
+                </div>
                 <span>趁年轻去爱</span>
               </div>
             </a>
             <a href="">
               <div class="imagebox">
-                <div></div>
-                <span>趁年轻去爱</span>
+                <div>
+                  <p>></p>
+                </div>
+                <span>乘坐星际巴士</span>
               </div>
             </a>
             <a href="">
               <div class="imagebox">
-                <div></div>
-                <span>趁年轻去爱</span>
+                <div>
+                  <p>></p>
+                </div>
+                <span>乾坤在手</span>
               </div>
             </a>
             <a href="">
               <div class="imagebox">
-                <div></div>
-                <span>趁年轻去爱</span>
+                <div>
+                  <p>></p>
+                </div>
+                <span>老牌歌手的新时代</span>
+              </div>
+            </a>
+            <a href="">
+              <div class="imagebox">
+                <div>
+                  <p>></p>
+                </div>
+                <span>不唱嘶声竭力的情歌</span>
+              </div>
+            </a>
+            <a href="">
+              <div class="imagebox">
+                <div>
+                  <p>></p>
+                </div>
+                <span>夜太黑</span>
+              </div>
+            </a>
+            <a href="">
+              <div class="imagebox">
+                <div>
+                  <p>></p>
+                </div>
+                <span>你听，爱情马上就要来了</span>
+              </div>
+            </a>
+            <a href="">
+              <div class="imagebox">
+                <div>
+                  <p>></p>
+                </div>
+                <span>戴好耳机，你将身处异时空大自然</span>
               </div>
             </a>
           </div>
         </div>
-        <div>
-
+        <div class="box-top3-bx-right">
+          <div class="box-top3-bx-right-top">
+            <p class="gengduo2">分类听歌</p>
+            <p><a href="">更多</a></p>
+          </div>
+          <div class="fenlei">
+            <a href=""><span>情歌</span></a>
+            <a href=""> <span>红歌</span></a>
+            <a href=""><span>劲爆</span></a>
+            <a href=""><span>天籁</span></a>
+            <a href=""> <span>金典老歌</span></a>
+            <a href=""> <span>欧美</span></a>
+            <a href=""><span>网络歌曲</span></a>
+            <a href=""><span>民歌</span></a>
+            <a href=""><span>80后</span></a>
+            <a href=""><span>儿歌</span></a>
+            <a href=""><span>伤感</span></a>
+            <a href=""><span>安静</span></a>
+          </div>
+          <div class="diantai">
+            <p class="gengduo3">推荐电台</p>
+            <p><a href="">更多</a></p>
+            <br>
+            <br>
+            <br>
+            <a href="">
+              <div class="tubiao">
+                <img src="../img/乐符.png" alt="">
+                <span>随便听听</span>
+                <div></div>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
