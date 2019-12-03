@@ -8,8 +8,10 @@
   <title>千千静听-听见世界</title>
   <link rel="stylesheet" href="../lib/reset/reset.css">
   <link rel="stylesheet" href="../font/iconfont.css">
+  <link rel="stylesheet" href="../css/index.css">
   <style>
     .box {
+      position: relative;
       height: 100%;
       width: 100%;
     }
@@ -88,6 +90,7 @@
       border: none;
       right: 0;
       font-size: 30px;
+      cursor: pointer;
     }
 
     .box-top-bx .denglu div {
@@ -205,12 +208,12 @@
       background-size: 195px;
       margin-left: 23px;
       box-sizing: border-box;
+      transition: all 0.2s;
     }
 
     .box-top3-bx-left-top2 a:nth-child(-n+8) .imagebox:hover {
       background-size: 210px;
       background-position: -9px -9px;
-      transition: all 0.3s;
     }
 
     .box-top3-bx-left-top2 a:nth-child(2) .imagebox {
@@ -260,20 +263,27 @@
       margin-left: 0;
     }
 
-    .box-top3-bx-left-top2 a:hover {
+    .box-top3-bx-left-top2 a:hover span {
       color: rgb(51, 51, 51);
       font-weight: 600;
     }
 
     .box-top3-bx-left-top2 .imagebox div {
       position: absolute;
-      display: none;
+      -webkit-tap-highlight-color: transparent;
       width: 54px;
       height: 54px;
-      background-color: rgba(0, 0, 0, 0.6);
       border-radius: 54%;
       left: calc((195px - 54px)/2);
       top: calc((195px - 54px)/2);
+      transition: all 0.2s;
+      transform: scale(.6);
+    }
+
+    .box-top3-bx-left-top2 .imagebox:hover div {
+      display: block;
+      background-color: rgba(0, 0, 0, 0.6);
+      transform: scale(1);
     }
 
     .box-top3-bx-left-top2 span {
@@ -283,15 +293,16 @@
       padding-top: 10px;
     }
 
-    .box-top3-bx-left-top2 .imagebox:hover div {
-      display: block;
-    }
-
     .imagebox p {
+      display: none;
       font-size: 40px;
       line-height: 54px;
       text-align: center;
       color: #fff;
+    }
+
+    .box-top3-bx-left-top2 .imagebox:hover p {
+      display: block;
     }
 
     .box-top3-bx-right {
@@ -336,14 +347,14 @@
       line-height: 46px;
       font-size: 14px;
       border-radius: 46px;
-      border: 1px solid #ccc;
+      border: 1px solid #efefef;
       margin-left: 20px;
       margin-top: 16px;
     }
 
     .fenlei a:hover {
       box-shadow: 0 2px 3px rgb(216, 214, 214);
-      transition: all 0.3s;
+      transition: all 0.2s;
     }
 
     .fenlei span:nth-child(-n+3) {
@@ -381,35 +392,49 @@
     .tubiao {
       position: relative;
       float: left;
-      margin-top: 28px;
+      margin-top: 20px;
       width: 70px;
       height: 86px;
       text-align: left;
+      margin-left: 55px;
+    }
+
+    .diantai>a:nth-child(6) .tubiao,
+    .diantai>a:nth-child(10) .tubiao {
+      margin-left: 0;
     }
 
     .tubiao div {
       position: absolute;
-      display: none;
+      -webkit-tap-highlight-color: transparent;
       top: 0;
       width: 57px;
       height: 57px;
       border-radius: 50%;
-      background-color: rgba(0, 0, 0, 0.2);
+      transition: all 0.2s;
+      transform: scale(.1);
     }
 
     .tubiao:hover div {
       display: block;
+      background-color: rgba(0, 0, 0, 0.2);
+      transform: scale(1);
     }
 
     .tubiao span {
       display: inline-block;
-      margin-left: 5px;
       margin-top: 14px;
+      margin-left: 12px;
+      font-size: 16px;
+    }
+
+    .diantai>a:nth-child(6) span {
+      margin-left: 0;
     }
   </style>
 </head>
 
-<body>
+<body onload="init()">
   <div class="box">
     <div class="box-top">
       <div class="box-top-bx">
@@ -555,11 +580,103 @@
                 <div></div>
               </div>
             </a>
+            <a href="">
+              <div class="tubiao">
+                <img src="../img/乐符2.png" alt="">
+                <span>在家</span>
+                <div></div>
+              </div>
+            </a>
+            <a href="">
+              <div class="tubiao">
+                <img src="../img/乐符3.png" alt="">
+                <span>工作</span>
+                <div></div>
+              </div>
+            </a>
+            <a href="">
+              <div class="tubiao">
+                <img src="../img/乐符4.png" alt="">
+                <span>上网</span>
+                <div></div>
+              </div>
+            </a>
+            <a href="">
+              <div class="tubiao">
+                <img src="../img/乐符5.png" alt="">
+                <span>店铺</span>
+                <div></div>
+              </div>
+            </a>
+            <a href="">
+              <div class="tubiao">
+                <img src="../img/乐符6.png" alt="">
+                <span>运动</span>
+                <div></div>
+              </div>
+            </a>
+            <a href="">
+              <div class="tubiao">
+                <img src="../img/乐符7.png" alt="">
+                <span>轻松</span>
+                <div></div>
+              </div>
+            </a>
+            <a href="">
+              <div class="tubiao">
+                <img src="../img/乐符8.png" alt="">
+                <span>甜蜜</span>
+                <div></div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
     </div>
+    <div class="box-top4-bx">
+      <div class="hezi">
+        <a href=""><img id="lunbotu" src="../img/b1.jpg"></a>
+        <a href=""><img src="../img/b2.jpg" id="lunbotu2"></a>
+        <a href=""><img src="../img/b3.jpg" id="lunbotu3"></a>
+      </div>
+    </div>
+    <a href="" class="zjiantou"><span>&lt;</span></a>
+    <a href="" class="yjiantou"><span>&gt;</span></a>
+    <div class="box-top5">
+      <div class="box-top5-bx">
+        <div class="box-top5-top">
+          <p class="newsong">新歌首发</p>
+          <p><a href="">更多</a></p>
+        </div>
+        <div class="changpian">
+          <div>
+            <a href="">
+              <img src="../img/newsong1.jpg" alt="">
+            </a>
+          </div>
+          <p>千千音乐12月速递</p>
+          <p>新歌抢先听</p>
+          <div class="yuan"></div>
+        </div>
+      </div>
+    </div>
   </div>
+
 </body>
+<script>
+  function init() {
+    setInterval("changgeImg()", 2000);
+  }
+  var i = 1
+  function changgeImg() {
+    i++;
+    document.getElementById("lunbotu").src = "../img/b" + i + ".jpg";
+    document.getElementById("lunbotu2").src = "../img/b" + i + ".jpg";
+    document.getElementById("lunbotu3").src = "../img/b" + i + ".jpg";
+    if (i == 3) {
+      i = 0;
+    }
+  }
+</script>
 
 </html>
