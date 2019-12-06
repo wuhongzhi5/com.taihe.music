@@ -1,0 +1,127 @@
+.z-top {
+  height: 682px;
+  background-color: #f3f3f3;
+}
+.z-bx {
+  width: 1000px;
+  margin: auto;
+  height: 100%;
+  background-image: url(https://static0.qianqian.com/tms/download/static/images/bg.9251dda64cb33d10.png);
+  background-repeat: no-repeat;
+}
+.z-bx-top {
+  height: 116px;
+}
+.z-bx-top img {
+  margin-left: 104px;
+  margin-top: 38px;
+}
+.z-bx-bottom {
+  height: calc((682px - 116px));
+}
+.z-bx-bottom>img {
+  float: left;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+.xiazai {
+  height: 100%;
+  width: 212px;
+  float: right;
+  text-align: right;
+}
+.xiazai .were {
+  font-size: 40px;
+}
+.xiazai p:nth-child(2) {
+  color: #000;
+  font-size: 18px;
+  margin-top: 15px;
+}
+.xiazai p:nth-child(3) {
+color: #828282;
+margin-top: 14px;
+}
+.xz {
+  display: inline-block;
+  width: 94px;
+  height: 32px;
+  border: 1px solid #bdad94;
+  text-align: center;
+  background-color: #af9c7c;
+  margin-top: 39px;
+  margin-right: 15px;
+}
+.xiazai a:nth-child(5) div {
+  margin-right: 0;
+}
+.xz span {
+  line-height: 32px;
+  color: #eae5dd;
+  font-weight: 700;
+}
+.xiazai img {
+  width: 127px;
+  margin-top: 135px;
+}
+.xiazai p:nth-last-child(2) {
+  margin-top: 26px;
+  color: #9c9c9c;
+  font-size: 14px;
+  margin-right: 16px;
+}
+.xiazai p:nth-last-child(1) {
+color: #af9c7c;
+font-size: 14px;
+margin-top: 10px;
+}
+footer {
+  height: 204px;
+  background-color: #e7e7e7;
+}
+.footer-bx {
+  position: relative;
+  width: 1000px;
+  margin: auto;
+  height: 100%;
+  overflow: hidden;
+}
+.footer-bx>div:first-child {
+   width: 106px;
+    height: 40px;
+    background-image: url(https://static0.qianqian.com/tms/download/static/images/qianqian.06fccf2f716dc05e.png);
+    background-repeat: no-repeat;
+    margin-left: 105px;
+    margin-top: 69px;
+}
+.footer-bx div:nth-child(2) {
+  font-size: 14px;
+  color: #c3c3c3;
+  margin-top: 13px;
+  margin-left: 105px;
+}
+.xztubiao {
+  position: absolute;
+    left: 545px;
+    top: 0;
+    width: 450px;
+    height: 202px;
+}
+.xztubiao div {
+  float: left;
+  width: 44px;
+  height: 70px;
+  text-align: center;
+  color: #ababab;
+  margin-top: 72px;
+  margin-left: 44px;
+}
+.xztubiao a:first-child div {
+  margin-left: 0;
+}
+.xztubiao div p:first-child {
+  font-size: 28px;
+}
+.xztubiao div p:last-child {
+  margin-top: 26px;
+}
