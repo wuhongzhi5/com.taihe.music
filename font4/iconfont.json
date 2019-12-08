@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3295540",
+      "name": "下载",
+      "font_class": "xiazai",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "5124287",
+      "name": "加",
+      "font_class": "wode",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "11898395",
+      "name": "下载:加载-线",
+      "font_class": "xiazaijiazai-xian",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    }
+  ]
+}

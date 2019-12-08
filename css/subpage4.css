@@ -199,10 +199,10 @@ background-position: -900px -48px;
 .guanyu-left li:hover a {
   text-decoration: underline;
 }
-.guanyu-left li:first-child {
+.guanyu-left li:nth-child(7) {
   background-color: #299de7;
 }
-.guanyu-left li:first-child a {
+.guanyu-left li:nth-child(7) a {
   color: #fff;
   text-decoration: none;
 }
@@ -230,6 +230,8 @@ background-position: -900px -48px;
 }
 .guanyu-right p a:hover {
   text-decoration: underline;
+  background-color: rgb(51, 144, 255);
+  color: #fff;
 }
 .underline {
   border-bottom: 1px solid #ccc;
