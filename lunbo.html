@@ -50,7 +50,6 @@
         <li><img src="img/b1.jpg"></li>
         <li><img src="img/b2.jpg"></li>
         <li><img src="img/b3.jpg"></li>
-        <li><img src="img/b1.jpg" alt=""></li>
       </ul>
     </div>
   </div>
@@ -66,7 +65,7 @@
       left -= moveW;
 
       re.style.left = left + "px";
-      if (left <= -moveW * 4) {
+      if (left <= -moveW * 3) {
         re.style.transition = "0ms";
         left = 0;
         re.style.left = "0px";
