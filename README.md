@@ -1,2 +1,2 @@
 # com.taihe.music
-HTML+CSS项目
+PC端项目：千千音乐官网(仿)
